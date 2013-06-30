@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo for type judge in javascript</title>
+</head>
+<body>
+	<script>
+		var str ='str';
+var arr = ['1','2'];
+var num = 1;
+var bool = true;
+var obj = {name: 'test'};
+var nullObj = null;
+var undefinedObj = undefined;
+var reg =/reg/;
+
+function fn(){
+    alert('this is a function');
+}
+
+function User(name){
+    this.name = name;
+}
+
+var user = new User('user name');
+
+console.log(str.constructor);
+	console.log(arr.constructor);
+	console.log(num.constructor);
+	console.log(bool.constructor);
+	console.log(reg.constructor);
+	console.log(fn.constructor);
+	console.log(user.constructor);
+try
+{
+	console.log(nullObj.constructor);
+}
+catch(e)
+{
+    console.log('cannot execute constructor method on null object: ' + e.message);
+}
+
+try
+{
+	console.log(undefinedObj.constructor);
+}
+catch(e)
+{
+    console.log('cannot execute constructor method on undefined object: ' + e.message);
+}
+finally
+{
+    console.log('done');
+}
+
+
+	</script>
+</body>
+</html>
