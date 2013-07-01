@@ -1,9 +1,16 @@
 Start a blog life with github
 =====================
 
-## once two weeks at least
+## Once two weeks at least
 
-## maybe about everything
+## Maybe about everything
 
-## recently focus on javascript
+## Recently focus on javascript
 - cause it is an amazing language
+
+## About me
+- try to make myself a real programmer
+- hobbies: 
+    - movies
+    - basketball
+    - pool
