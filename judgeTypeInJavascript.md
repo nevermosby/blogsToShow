@@ -79,8 +79,8 @@ Run Result:
 
 答案是， let us try...
 
-## 接近完备的Object.prototype.toString().call()
-Object.prototype.toString().call()是jquery中使用的方式。它跟对象原生的toString()有什么不同，这里就不再赘述，有兴趣的同学，可以自行google。
+## 接近完备的Object.prototype.toString.call()
+Object.prototype.toString.call()是jquery中使用的方式。它跟对象原生的toString()有什么不同，这里就不再赘述，有兴趣的同学，可以自行google。
 
 优点：支持绝大多数的类型判断。
 
@@ -103,7 +103,7 @@ Example：测试代码一致。
 
 Run Result:
 
-![run result of Object.prototype.toString().call()][call_run_result]
+![run result of Object.prototype.toString.call()][call_run_result]
 
 [typeof_run_result]: img/result1.png
 [constructor_run_result]: img/result2.png
