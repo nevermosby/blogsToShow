@@ -105,9 +105,9 @@ Run Result:
 
 ![run result of Object.prototype.toString.call()][call_run_result]
 
-[typeof_run_result]: img/result1.png
-[constructor_run_result]: img/result2.png
-[call_run_result]: img/result3.png
+[typeof_run_result]: ../img/result1.png
+[constructor_run_result]: ../img/result2.png
+[call_run_result]: ../img/result3.png
 
 可以发现，对于自定义的对象User的实例，进行call()运算，只能得到与普通对象类型一样的结果： [object Object] 。
 
