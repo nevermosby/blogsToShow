@@ -76,7 +76,7 @@ Example：
  
  这两个概念是ECMA javascript的语言的实现继承的基础。所以想要简单讲清楚并让大家理解，不是件易事，可能将来会有专门一个系列讲讲我是怎么学习这两个概念的。
 
- 接下来，通过详细讲解上文用来demo的测试用例中的三个示例：
+接下来，通过详细讲解上文用来demo的测试用例中的三个示例：
  - Object instanceof Object
  - Function instanceod Function
  - Foo instanceof Foo
