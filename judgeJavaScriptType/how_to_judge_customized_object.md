@@ -51,7 +51,7 @@ Example：
 
 可能大家现在都开始有疑问了:
 
-为什么Object和Function使用instanceof运算符作用于自己，得到true，而其他内置类instanceof自己又不等于true了, 就以上对instanceof的描述，自己本身一定是自己的一个instance啊（由于本人语文水平不高，表述不清楚请多见谅）~
+为什么Object和Function使用instanceof运算符作用于自己，得到true，而其他内置类instanceof自己又不等于true了, 就以上对instanceof的描述，自己本身一定是自己的一个instance。
 
 遇到这样的疑问，一般都是从寻找这个unexpected运算符的定义着手。
 
