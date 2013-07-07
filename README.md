@@ -1,6 +1,10 @@
 Start a blog life with github
 =====================
 
+## Post list:
+- 2013-07-07:    how to judge customized object in javascript with instanceof
+- 2013-06-30:    judge Type In Javascript with typeof and constructor 
+
 ## Once two weeks at least
 
 ## Maybe about everything
@@ -14,3 +18,4 @@ Start a blog life with github
     - movies
     - basketball
     - pool
+
