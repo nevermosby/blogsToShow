@@ -19,5 +19,5 @@ Start a blog life with github
     - basketball
     - pool
 
-[how_to_judge_customized_object_with_instanceof]: ../judgeJavaScriptType/how_to_judge_customized_object.md
-[judge_Type_In_Javascript]: ../judgeJavaScriptType/judge_Type_In_Javascript.md
+[how_to_judge_customized_object_with_instanceof]: ..master/judgeJavaScriptType/how_to_judge_customized_object.md
+[judge_Type_In_Javascript]: ..master/judgeJavaScriptType/judge_Type_In_Javascript.md
