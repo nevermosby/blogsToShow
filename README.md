@@ -2,6 +2,7 @@ Start a blog life with github
 =====================
 
 ## Post list:
+- 2013-07-28:    [how to judge the sequence of JavaScript execution in browser][how_to_judge_execution_sequence_in_browser]
 - 2013-07-07:    [how to judge customized object in javascript with instanceof][how_to_judge_customized_object_with_instanceof]
 - 2013-06-30:    [judge Type In Javascript with typeof and constructor][judge_Type_In_Javascript]
 
@@ -21,3 +22,4 @@ Start a blog life with github
 
 [how_to_judge_customized_object_with_instanceof]: judgeJavaScriptType/how_to_judge_customized_object.md
 [judge_Type_In_Javascript]: judgeJavaScriptType/judge_Type_In_Javascript.md
+[how_to_judge_execution_sequence_in_browser]: checkExecutionSequence/howToJudgeTheSequenceOfJavaScriptExecutionInBrowser.md
