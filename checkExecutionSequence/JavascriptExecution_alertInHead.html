@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript在head里</title>
+	<script type="text/javascript" src="alert.js"></script>
+</head>
+<body>
+	<p>
+		i am in the p tag.....
+	</p>
+	<script type="text/javascript">
+		//f1(); // will throw exception: Uncaught ReferenceError: f1 is not defined
+
+		// function f1(){
+
+		// 	alert('hello f1 world');
+		// }
+	</script>
+	<script type="text/javascript">
+		// f1();
+		// function f1(){
+
+		// 	alert('hello f1 world');
+		// }
+	</script>
+
+	<script type="text/javascript">
+		// test duplicate definition
+		// f2();
+		// function f2(){
+		// 	alert(1);
+		// }
+		// function f2(){
+		// 	alert(2);
+		// }
+	</script>
+	<script type="text/javascript">
+		function back(num){
+
+			alert('i am back after ' + num +' hours');
+		}
+
+		function go(hours, callback){
+			var num=0;
+			for(var i=0;i<hours;i++){
+				num++;
+			}
+			callback(num);
+		}
+
+		//go(200, back)
+	</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+alert('hello, you can see me because Javascript is executed.');

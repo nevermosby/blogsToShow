@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>异步载入Javascript-绑定事件方式</title>
+	<script type="text/javascript">
+	function loadjs(script_filename) {
+
+	    var script = document.createElement('script');
+
+	    script.setAttribute('type', 'text/javascript');
+
+	    script.setAttribute('src', script_filename);
+
+	    script.setAttribute('id', 'script_Id');
+	 
+	    var script_id = document.getElementById('script_Id');
+
+	    if(script_id){
+
+	        document.getElementsByTagName('head')[0].removeChild(script_id);
+	    }
+
+	    document.getElementsByTagName('head')[0].appendChild(script);
+	}
+ 
+ 	function LoadNow(){
+
+	 	var scriptPath = 'alert.js';
+	 	loadjs(scriptPath);
+ 	}
+
+	</script>
+</head>
+<body>
+	<p onclick="LoadNow()">
+		click me to load js...
+	</p>
+</body>
+</html>
