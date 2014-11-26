@@ -8,7 +8,7 @@
 
 ## Agenda
 - Migrate from Objective-C
-- Swift sweet
+- Introduce AVAudioEngine in iOS 8
 
 ## Migrate from Objective-C
 First I found the code snippet of Objective-C how to play audio:
@@ -19,6 +19,21 @@ initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
 
 [audio play];
 ```
+Now how to migrate that into Swift version. Maybe you can follow these steps:
+
+1. Use the target keyword to search from the Swift documentation
+2. If found the same one, use it.
+3. Otherwise, search for the similiar one from the Swift documentation.
+
+
+```swift
+import AVFoundation
+var filePath =  NSBundle.mainBundle().pathForResource("song", ofType: "mp3")
+var audioPlayer = AVAudioPlayer(contentsOfURL: filePathUrl, error: nil)
+audioPlayer.play()
+```
+## Introduce AVAudioEngine in iOS 8
+TBD
 
 ### Reference
 - AV Founddation: [link](https://developer.apple.com/library/ios/documentation/AVFoundation/Reference/AVFoundationFramework/)
