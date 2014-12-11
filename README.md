@@ -3,6 +3,8 @@ Start a blog life with github
 
 ## Post list:
 - 2014-12-11:    [how to use the shell command "getopt"][how_to_use_getopt]
+- 2014-11-28:    [how to manipulate files in iOS by Swift][how_to_manipulate_files_by_Swift]
+- 2014-11-27:    [how to record audio in iOS by Swift][how_to_record_audio_by_Swift]    
 - 2014-11-26:    [how to play audio in iOS by Swift][how_to_play_audio_by_Swift]
 - 2013-07-28:    [how to judge the sequence of JavaScript execution in browser][how_to_judge_execution_sequence_in_browser]
 - 2013-07-07:    [how to judge customized object in javascript with instanceof][how_to_judge_customized_object_with_instanceof]
