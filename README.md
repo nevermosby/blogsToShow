@@ -2,6 +2,7 @@ Start a blog life with github
 =====================
 
 ## Post list:
+- 2015-03-04:    [How to build your own ruby gem][how_to_build_gem]
 - 2014-12-11:    [how to use the shell command "getopt"][how_to_use_getopt]
 - 2014-11-28:    [how to manipulate files in iOS by Swift][how_to_manipulate_files_by_Swift]
 - 2014-11-27:    [how to record audio in iOS by Swift][how_to_record_audio_by_Swift]    
