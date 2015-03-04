@@ -18,6 +18,7 @@ Start a blog life with github
 - Javascript cause it is an amazing language.
 - iOS development, since I got my first Mac air, it is no doubt engaging the red wave(updated 2014-11-26).
 - Bash shell programming, since I was involved in the DevOps project, it is necessary to learn the shell programming to interactive Linux/Unix OS.
+- Ruby development for puppet and CLI tool. It turns out that coding in Ruby is so refreshing and wanna go far with Ruby
 
 ## About me
 - try to make myself a real programmer
